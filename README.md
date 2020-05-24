@@ -23,3 +23,5 @@ This analysis will not be available for Windows.
 - Libraries: metakernel zmq
   sudo pip install jupyter metakernel zmq
   
+  
+obs.: This is not the final version of the repository 

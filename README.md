@@ -24,4 +24,4 @@ This analysis will not be available for Windows.
 - Libraries: metakernel zmq
   sudo pip install jupyter metakernel zmq
   
-  
+ ** To run the notebook do: root --notebook

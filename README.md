@@ -14,7 +14,7 @@ The files are organized as follow:
 - /environment - Dependencies and environment variables
 
 ## Paper Draft
-This will not be the final format of the paper. Also, this version of the paper has all possible histograms outputs, not all of them will be on the final paper, but they will be saved as intermediate results. 
+This will not be the final format of the paper. Also, this version of the paper has all possible histograms outputs, not all of them will be on the final paper, but they can be saved as intermediate results. 
 
 Link for paper draft:
 https://www.overleaf.com/read/kztvzqvvtbxb

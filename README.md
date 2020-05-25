@@ -11,7 +11,7 @@ The files are organized as follow:
 - /results - Outputs of the analysis 
 - /utils - Best Practices 
 - /workflow - Communication flow between the components that involves the entire project
-- /environement - Dependencies and environment variables
+- /environment - Dependencies and environment variables
 
 ## Paper Draft
 This will not be the final format of the paper. Also, this version of the paper has all possible histograms outputs, not all of them will be on the final paper, but they will be saved as intermediate results. 

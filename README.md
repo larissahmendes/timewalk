@@ -32,6 +32,7 @@ A Dockerfile with the with the software and libraries will be available at envir
   `pip install jupyterlab`
 
 - [ROOT](https://root.cern.ch/downloading-root) 6.07 or newer:
+
   #TODO: instructions to download root  
 
 - Libraries: 

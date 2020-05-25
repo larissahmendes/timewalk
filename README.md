@@ -5,21 +5,14 @@ This repository holds the project developed during the Reproducibility in Resear
 
 The files are organized as follow:
 
-/data - Dataset (original and pre-processed)
-
-/deliver - The executable paper
-
-/code - Codes and notebooks used during the experiment
-
-/figures - Figures used on the paper
-
-/results - Outputs of the analysis 
-
-/utils - Best Practices 
-
-/workflow - Communication flow between the components that involves the entire project
-
-/environement - Dependencies and environment variables
+- /data - Dataset (original and pre-processed)
+- /deliver - The executable paper
+- /code - Codes and notebooks used during the experiment
+- /figures - Figures used on the paper
+- /results - Outputs of the analysis 
+- /utils - Best Practices 
+- /workflow - Communication flow between the components that involves the entire project
+- /environement - Dependencies and environment variables
 
 Link for paper:
 https://www.overleaf.com/read/kztvzqvvtbxb

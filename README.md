@@ -16,24 +16,27 @@ The files are organized as follow:
 ## Paper Draft
 This will not be the final format of the paper. Also, this version of the paper has all possible histograms outputs, not all of them will be on the final paper, but they will be saved as intermediate results. 
 
-Link for paper:
+Link for paper draft:
 https://www.overleaf.com/read/kztvzqvvtbxb
 
 ## Workflow
-See a workflow chart with with the aproach plan for the analysis at ![workflow/workflow_planning.png](https://github.com/larissahmendes/timewalk/blob/master/workflow/workflow_planning.png)
+See a workflow chart with with the aproach plan for the analysis at workflow/workflow_planning.png ![workflow/workflow_planning.png](https://github.com/larissahmendes/timewalk/blob/master/workflow/workflow_planning.png)
 
 ## Environement
-A Dockerfile will be available for the user with the following softwares and libraries:
-This analysis will not be available for Windows.
+A Dockerfile with the with the software and libraries will be available at environement folder.
 
-- Jupyter notebook:
-  The minimal version of Jupyter required in this case is 4.0.
-  sudo pip install
+- [Jupyter](https://jupyter.org/install.html) notebook: 
 
-- ROOT 6.07 or newer:
-  https://root.cern.ch/downloading-root
-
-- Libraries: metakernel zmq
-  sudo pip install jupyter metakernel zmq
+  The minimal version of Jupyter required is 4.0.
   
- ** To run the notebook do: root --notebook
+  `pip install jupyterlab`
+
+- [ROOT](https://root.cern.ch/downloading-root) 6.07 or newer:
+  #TODO: instructions to download root  
+
+- Libraries: 
+
+  `sudo pip install metakernel zmq`
+  
+ ** This analysis will not be available for Windows.
+

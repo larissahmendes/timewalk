@@ -19,6 +19,8 @@ This will not be the final format of the paper. Also, this version of the paper 
 Link for paper draft:
 https://www.overleaf.com/read/kztvzqvvtbxb
 
+** The final paper will be on /deliver folder
+
 ## Workflow
 See a workflow chart with with the aproach plan for the analysis at workflow/workflow_planning.png ![workflow/workflow_planning.png](https://github.com/larissahmendes/timewalk/blob/master/workflow/workflow_planning.png)
 

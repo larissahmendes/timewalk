@@ -24,6 +24,9 @@ https://www.overleaf.com/read/kztvzqvvtbxb
 ## Workflow
 See a workflow chart with with the aproach plan for the analysis at workflow/workflow_planning.png ![workflow/workflow_planning.png](https://github.com/larissahmendes/timewalk/blob/master/workflow/workflow_planning.png)
 
+## Data
+Input data size is 2.1GB, therefore it can't be storeg on github. A data storage tool will be used.
+
 ## Environement
 A Dockerfile with the with the software and libraries will be available at environement folder.
 

@@ -14,10 +14,7 @@ The files are organized as follow:
 - /environment - Dependencies and environment variables
 
 ## Paper Draft
-This will not be the final format of the paper. Also, this version of the paper has all possible histograms outputs, not all of them will be on the final paper, but they can be saved as intermediate results. 
-
-Link for paper draft:
-https://www.overleaf.com/read/kztvzqvvtbxb
+A draft of the paper is available in [code/twinterpolation_paper.ipynb](https://github.com/larissahmendes/timewalk/blob/master/code/twinterpolation_paper.ipynb)
 
 ** The final paper will be on /deliver folder
 

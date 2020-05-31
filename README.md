@@ -14,7 +14,7 @@ The files are organized as follow:
 - /environment - Dependencies and environment variables
 
 ## Paper Draft
-A draft of the paper is available in [code/twinterpolation_paper.ipynb](https://github.com/larissahmendes/timewalk/blob/master/code/twinterpolation_paper.ipynb)
+A draft of the paper is available in [code/twinterpolation.ipynb](https://github.com/larissahmendes/timewalk/blob/master/code/twinterpolation.ipynb)
 
 ** The final paper will be on /deliver folder
 

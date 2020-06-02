@@ -14,9 +14,9 @@ The files are organized as follow:
 - /environment - Dependencies and environment variables
 
 ## Paper Draft
-A draft of the paper is available in [code/twinterpolation.ipynb](https://github.com/larissahmendes/timewalk/blob/master/code/twinterpolation.ipynb)
+The paper is currently available in the notebook [code/twinterpolation.ipynb](https://github.com/larissahmendes/timewalk/blob/master/code/twinterpolation.ipynb)
 
-** The final paper is currently available be on /deliver folder
+OBs.: This is not the final versions of the codes nor of the paper text.
 
 ## Workflow
 See a workflow chart with with the aproach plan for the analysis at workflow/workflow_planning.png ![workflow/workflow_planning.png](https://github.com/larissahmendes/timewalk/blob/master/workflow/workflow_planning.png)

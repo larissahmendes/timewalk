@@ -16,7 +16,7 @@ The files are organized as follow:
 ## Paper Draft
 A draft of the paper is available in [code/twinterpolation.ipynb](https://github.com/larissahmendes/timewalk/blob/master/code/twinterpolation.ipynb)
 
-** The final paper will be on /deliver folder
+** The final paper is currently available be on /deliver folder
 
 ## Workflow
 See a workflow chart with with the aproach plan for the analysis at workflow/workflow_planning.png ![workflow/workflow_planning.png](https://github.com/larissahmendes/timewalk/blob/master/workflow/workflow_planning.png)

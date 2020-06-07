@@ -1,6 +1,6 @@
 # Environment
 
-The analysis steps will run in a ROOT analysis in a Jupyter notebook environment. In order to run it, it is possible to install all the necessary libraries or run the docker container available below.
+The analysis steps will run in a ROOT analysis in a Jupyter notebook environment. In order to run it, it is possible to install all the necessary libraries locally or run the docker container available below.
 
 ### OPTION 1) Executing the analysis on your local environement
 

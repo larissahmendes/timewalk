@@ -2,7 +2,7 @@
 
 The analysis steps will run in a ROOT analysis in a Jupyter notebook environment. In order to run it, it is possible to install all the necessary libraries locally or run the docker container available below.
 
-### OPTION 1) Executing the analysis on your local environement
+### OPTION 1) Executing the analysis on your local environment
 
 The following steps are the basic instructions for **UNIX systems**, check the instructions for your system version on the following links. The operation of the software package and the analysis presented on this repository is not guaranteed on the Windows operating system. 
 
@@ -10,15 +10,15 @@ The following steps are the basic instructions for **UNIX systems**, check the i
 
    a) Check the prerequisites for the list of packages needed for your setup before starting the build on this [link](https://root.cern.ch/build-prerequisites)
          
-   b) Follow the _Quick Start_ instalation instruction on this [link](https://root.cern.ch/building-root). It is recomended to use a version 6.07.06 or later. 
+   b) Follow the _Quick Start_ installation instruction on this [link](https://root.cern.ch/building-root). It is recommended to use version 6.07.06 or later. 
 
 **2)** Install Python 3
     
-   It is recomended to use a version 3.6.5 or later. If you don't have it on your machine, you can use the instruction on this [link](https://realpython.com/installing-python/).
+   It is recommended to use version 3.6.5 or later. If you don't have it on your machine, you can use the instruction on this [link](https://realpython.com/installing-python/).
 
-**2)** [Install](https://root.cern.ch/how/how-create-rootbook) Jupyter notebook and the necessary depedencies to run the ROOT kernel 
+**2)** [Install](https://root.cern.ch/how/how-create-rootbook) Jupyter notebook and the necessary dependencies to run the ROOT kernel 
 
-   The minimal version of Jupyter required in this case is 4.0. 
+   The minimal version of Jupyter required, in this case, is 4.0. 
    
    `sudo pip install jupyter metakernel zmq`
 
@@ -46,19 +46,18 @@ This docker image includes the software framework `CERN ROOT` with `Python 3` in
    Where:
    ` -p 8888:8080`: Maps the Docker container port 8080 to the host port 8888 .
    
-   `<host-path>:/work`: Mounts the local folder < host-path > to /work in the container. Substitute <host-path> by yout local path with the dataset and/or pre-existing notebooks, for example `/home/user:/work`. **In the case <host-path> will be the path were the the reposirory of this analysis is on your computer**
+   `<host-path>:/work`: Mounts the local folder < host-path > to /work in the container. Substitute <host-path> by your local path with the dataset and/or pre-existing notebooks, for example `/home/user:/work`. **In the case <host-path> will be the path were the repository of this analysis is on your computer**
   
 **3)** Open the notebook on the desired directory
 
 To access the notebook, copy and paste `localhost:3000` to a browser.
 
-When acessing the notebook a token authentication is called. When you start the notebook server, a token is generated to use for authentication. This token is logged to the terminal, so that you can copy/paste the URL into your browser. For example:
+When accessing the notebook a token authentication is called. When you start the notebook server, a token is generated to use for authentication. This token is logged to the terminal so that you can copy/paste the URL into your browser. For example:
 
 `[I 02:40:21.942 NotebookApp] The Jupyter Notebook is running at:
 http://localhost:8888/?token=c8de56fa4deed24899803e93c227592aef6538f93025fe01`
 
 In this case you can just copy the token `c8de56fa4deed24899803e93c227592aef6538f93025fe01` to the autentication field on your browser.
-
 
 
 

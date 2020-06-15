@@ -50,7 +50,7 @@ This docker image includes the software framework `CERN ROOT` with `Python 3` in
   
 **3)** Open the notebook on the desired directory
 
-To access the notebook, copy and paste `localhost:3000` to a browser.
+To access the notebook, copy and paste `localhost:8888` to a browser.
 
 When accessing the notebook a token authentication is called. When you start the notebook server, a token is generated to use for authentication. This token is logged to the terminal so that you can copy/paste the URL into your browser. For example:
 

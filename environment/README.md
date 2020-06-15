@@ -57,7 +57,7 @@ When accessing the notebook a token authentication is called. When you start the
 `[I 02:40:21.942 NotebookApp] The Jupyter Notebook is running at:
 http://localhost:8888/?token=c8de56fa4deed24899803e93c227592aef6538f93025fe01`
 
-In this case you can just copy the token `c8de56fa4deed24899803e93c227592aef6538f93025fe01` to the autentication field on your browser.
+In this example you would just copy the token `c8de56fa4deed24899803e93c227592aef6538f93025fe01` to the autentication field on your browser.
 
 
 

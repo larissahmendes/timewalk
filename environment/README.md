@@ -46,7 +46,7 @@ This docker image includes the software framework `CERN ROOT` with `Python 3` in
    Where:
    ` -p 8888:8080`: Maps the Docker container port 8080 to the host port 8888 .
    
-   `<host-path>:/work`: Mounts the local folder < host-path > to /work in the container. Substitute <host-path> by your local path with the dataset and/or pre-existing notebooks, for example `/home/user:/work`. **In this case, <host-path> will be the path were the repository of this analysis is on your computer**
+   `<host-path>:/work`: Mounts the local folder < host-path > to /work in the container. Substitute `< host-path >` by your local path with the dataset and/or pre-existing notebooks, for example `/home/user:/work`. **In this case, `< host-path >` will be the path were the repository of this analysis is on your computer**
   
 **3)** Open the notebook on the desired directory
 

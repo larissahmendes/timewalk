@@ -43,7 +43,7 @@ The analysis steps will run in a ROOT analysis in a Jupyter notebook environment
 
 ### 4. Execute the workflow
 
-See a workflow chart with the inputs and outputs of the analysis at [workflow/workflow.png](https://github.com/larissahmendes/timewalk/blob/master/workflow/workflow_planning.png).
+See a workflow chart with the inputs and outputs of the analysis at [workflow/workflow.png](https://github.com/larissahmendes/timewalk/blob/master/workflow/workflow.png).
 
 The notebooks are divided into cells (some are Markdown texts and other are code). Each cell can be executed using `Shift + Enter`. Executing code cells runs the code and produces the outputs. To execute the entire notebook, run all cells in order. Run the notebooks in the following order:
 

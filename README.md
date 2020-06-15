@@ -35,8 +35,6 @@ or [download a zip archive](https://github.com/larissahmendes/timewalk/archive/m
 
 The data used in this study is available in a Zenodo repository that can be found [HERE](https://sandbox.zenodo.org/record/631441#.Xub2Phh7nCI). Download the file called `outputfile_negative.root` and put it inside the folder `/data`. 
 
-It is not necessary to download the other files of this repository.
-
 ### 3. Set up the environment and run the notebook
 
 The analysis steps will run in ROOT C++ in a Jupyter notebook environment. It is possible to install all the necessary libraries in your local environment or run the docker container. The instructions to set up the environment and run the notebook are available the [README.md](https://github.com/larissahmendes/timewalk/blob/master/environment/README.md) file in the `/environment` folder.

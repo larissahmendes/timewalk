@@ -1,7 +1,7 @@
 # Timewalk measurements in the VeloPix ASIC
 by Larissa Helena Mendes
 
-This repository holds the project developed during the Reproducibility in Research course at Unicamp. The main purpose was to create an Executable Paper by providing all the necessary elements to reproduce this research. The study of this effect in VeloPix is reported in this work.
+This repository holds the project developed during the Reproducibility in Research course at Unicamp. The main purpose was to create an Executable Paper by providing all the necessary elements to reproduce this research. The study of the timewalk effect in the VeloPix chip is reported in this work.
 
 The [paper](https://github.com/larissahmendes/timewalk/blob/master/deliver/Timewalk_measurements_in_the_VeloPix_ASIC.pdf) of this research is available in `/deliver` directory. In the `/utils` folder of this repository is made available a document for Best Practices in reproducible research.
 

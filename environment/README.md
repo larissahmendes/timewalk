@@ -33,6 +33,8 @@ The repository is available in [Docker Hub](https://hub.docker.com/r/larissahmen
 
 This docker image includes the software framework `CERN ROOT` with `Python 3` in order to use Jupyter notebooks on both `PyROOT` and `ROOT C++` kernels. It is built from `rootproject/root-fedora` image.
 
+ If necessary follow the instructions in [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/] to install docker. It is recommended to use version 19.03.8 or later. 
+
 **1)** Pull the image from the Docker Hub repository 
 
 `docker pull larissahmendes/jupyter-notebook-pyroot:1.1.0`

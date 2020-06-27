@@ -27,7 +27,7 @@ The files are organized as follow:
 
 To download the package source as you see it on GitHub, for offline browsing, use this line at the shell prompt (assuming you have Git installed on your computer):
 
-`git clone git@github.com:larissahmendes/timewalk.git`
+`git clone https://github.com/larissahmendes/timewalk.git`
 
 or [download a zip archive](https://github.com/larissahmendes/timewalk/archive/master.zip)
 

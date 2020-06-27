@@ -29,11 +29,11 @@ The following steps are the basic instructions for **UNIX systems**, check the i
    This will open the notebook interface in your browser
 
 ### OPTION 2) Executing the analysis on a containerized environment
+If necessary follow the instructions in https://docs.docker.com/engine/install/ubuntu/ to install docker. It is recommended to use version 19.03.8 or later. In order to run Docker, you need to manage Docker as a non-root user. Follow the first instructions at https://docs.docker.com/engine/install/linux-postinstall/, otherwise, you need to run the following commands with sudo.
+
 The repository is available in [Docker Hub](https://hub.docker.com/r/larissahmendes/jupyter-notebook-pyroot).
 
 This docker image includes the software framework `CERN ROOT` with `Python 3` in order to use Jupyter notebooks on both `PyROOT` and `ROOT C++` kernels. It is built from `rootproject/root-fedora` image.
-
- If necessary follow the instructions in [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/) to install docker. It is recommended to use version 19.03.8 or later. 
 
 **1)** Pull the image from the Docker Hub repository 
 
@@ -54,12 +54,12 @@ This docker image includes the software framework `CERN ROOT` with `Python 3` in
 
 To access the notebook, copy and paste `localhost:8888` to a browser.
 
-When accessing the notebook a token authentication is called. When you start the notebook server, a token is generated to use for authentication. This token is logged to the terminal so that you can copy/paste the URL into your browser. For example:
+When accessing the notebook a **token** authentication is called. When you start the notebook server, a token is generated to use for authentication. This token is logged to the **terminal** after you run the container so that you can copy/paste the token into your browser. For example:
 
 `[I 02:40:21.942 NotebookApp] The Jupyter Notebook is running at:
 http://localhost:8888/?token=c8de56fa4deed24899803e93c227592aef6538f93025fe01`
 
-In this example you would just copy the token `c8de56fa4deed24899803e93c227592aef6538f93025fe01` to the autentication field on your browser.
+In this **example**, you would just copy the token `c8de56fa4deed24899803e93c227592aef6538f93025fe01` to the authentication field on your browser. Copy the token that is shown on your terminal.
 
 
 

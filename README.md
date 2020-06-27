@@ -33,7 +33,11 @@ or [download a zip archive](https://github.com/larissahmendes/timewalk/archive/m
 
 ### 2. Get the data
 
-The data used in this study is available in a Zenodo repository that can be found [HERE](https://sandbox.zenodo.org/record/631441#.Xub2Phh7nCI). Download the file called `outputfile_negative.root` and put it inside the folder `/data`. 
+The data used in this study is available in a Zenodo repository that can be found [HERE](https://sandbox.zenodo.org/record/631441#.Xub2Phh7nCI). Download the file called ` outputfile_negative.root.tar.gz`, extract the `tar.gz` by typing on your terminal
+
+    tar -zxvf outputfile_negative.root.tar.gz
+
+Then, put the extracted file inside inside the `/data` folder to run the analysis.
 
 ### 3. Set up the environment and run the notebook
 

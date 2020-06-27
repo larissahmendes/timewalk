@@ -2,4 +2,4 @@ The data used in this study is available in a Zenodo repository that can be foun
 
     tar -zxvf outputfile_negative.root.tar.gz
 
-Then, put this file inside inside this folder to run the analysis.
+Then, put the extracted file inside inside this folder to run the analysis. Be aware that this set has a size of about 2.5 GB.

@@ -20,7 +20,7 @@ The following steps are the basic instructions for **UNIX systems**, check the i
 
    The minimal version of Jupyter required, in this case, is 4.0. 
    
-   `sudo pip install jupyter metakernel zmq`
+   `pip3 install jupyter metakernel zmq`
 
 **3)** Open the notebook on the desired directory
 

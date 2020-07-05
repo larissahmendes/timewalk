@@ -55,5 +55,7 @@ The notebooks are divided into cells (some are Markdown texts and other are code
 
 To visualize the results run the cells of the [paper.ipynb](https://github.com/larissahmendes/timewalk/blob/master/code/paper.ipynb) notebook to update the outputs.
 
+Obs.: The data preprocessing code is available in this repository, but due to complexity is not set for easy reproducibility (see workflow chart).
+
 ## License
 All source codes are available under a GNU General Public License v3.0. You can freely use and modify the code, with no warranty. See LICENSE.md for the full license text.

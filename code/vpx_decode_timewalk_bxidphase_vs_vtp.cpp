@@ -1,3 +1,17 @@
+/**
+ *  Larissa Helena
+ *  2017
+ * 
+ * 
+ *  To compile do:
+ *   g++ -g -Wall `root-config --cflags --libs` -L$ROOTSYS/lib $ROOTLIBS vpx_decode_timewalk.cpp -o vpx_decode_timewalk
+ *
+ *  
+ *  To run this code it is necessary to have the environment installed in the local machine.
+ *
+ */
+
+
 #include <iostream>
 #include <stdio.h>
 #include <sys/types.h>
@@ -32,7 +46,16 @@ int vpx_decode_timewalk_vtploop (char *dirname, bool skip_header=false, long max
     for (int i=0; i<30; ++i){
 		 bitstats[i] = 0;}
 
-    TFile *outputfile = new TFile("/eos/user/l/lmendes/twalk/outputfile_update_martin_positive_r7c2.root", "RECREATE");
+    analyse_row = 0;
+    analyse_col = 0;    
+
+    row_step = 8;
+    col_step = 8;   
+    
+    // output name
+    sprintf(output_fname, "../data/outputfile_update_positive_r%dc%d.root", analyse_row, analyse_col);
+
+    TFile *outputfile = new TFile(output_fname, "RECREATE");
     unsigned int emptyPacket = 0x12BEEE00;
 
     gStyle->SetOptStat("e");
@@ -45,8 +68,8 @@ int vpx_decode_timewalk_vtploop (char *dirname, bool skip_header=false, long max
 
     TH2F *hvtptwAll=NULL;     
 
-    for (int icol=2; icol<256; icol+=8){ 
-    for (int irow=7; irow<256; irow+=8){
+    for (int icol=analyse_row; icol<256; icol+=col_step){ 
+    for (int irow=analyse_col; irow<256; irow+=row_step){
       for (int ivtp = 513; ivtp < 1025; ivtp++) {
 	      delta = fabs(ivtp-512);
           //delta = ivtp-512;
